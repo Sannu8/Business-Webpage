@@ -1,0 +1,142 @@
+/* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+}
+
+button {
+  background: linear-gradient(to top,  #d3d3d3 16%, #ffffff
+   99%);
+  margin-right: 8px;
+  width: 130px;
+  height: 32px;
+  text-align: center;
+  font-size: 16px;
+  color: #004d4d;
+  box-shadow: 0px 0px 10px #D3D3D3;
+  border: 1px solid lightgrey;
+}
+
+button:hover {
+  color: white;
+  background: linear-gradient(to top, #669999 0%,  #004d4d
+   104%);
+  font-weight: bold;
+}
+
+.RightFloat{
+  margin-left: 30%;
+}
+
+.leftfloat {
+  float: left;
+  margin-right: 24px;
+}
+
+/*Body */
+body {
+  font-family: sans-serif;
+  margin: 0px;
+}
+
+
+/* GREY PERSON AREA*/
+.roundimage {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 16px;
+margin-top: -5%;
+padding: 3px;
+border: 2px solid cadetblue;
+box-shadow: 0px 0px 10px #FFFFFF;
+}
+
+.container {
+background: linear-gradient(to top,  #b3cccc 16%, #f0f5f5
+ 99%);
+margin-top: 100px;
+ padding-left: 32px;
+ padding-right: 32px;
+ color: ##004d4d;
+}
+
+
+.GreyLeft {
+  float: left;
+  font-size: 24px;
+  width: 900px;
+}
+
+.ManImage {
+  height: 600px;
+  margin-top: -100px;
+  margin-left: 150px;
+
+}
+
+
+/* Sections */
+.content {
+  clear: both;
+  font-size: 24px;
+}
+
+td.FirstCol {
+width: 30%;
+padding-right: 32px;
+}
+
+td.MiddleCol {
+width: 40%;
+padding-right: 32px;
+}
+
+td.LastCol {
+width: 30%;
+}
+
+.content {
+ padding: 32px;
+}
+
+.dash {
+  border: 0 none;
+border-top: 2px dashed #322f32;
+background: none;
+height:0;
+}
+
+.trcontent {
+ vertical-align: top;
+ text-align: justify;
+}
+/* Footer */
+
+footer {
+  background-color: #F0F0F0;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  marding-top: 32px;
+}
+
+.foot {
+  width: 100%;
+
+
+}
+
+small {
+  color: silver;
+}
+
+.footerpara {
+  margin-top: 32px;
+}
+
+.fb {
+  padding-right: 16px;
+}
